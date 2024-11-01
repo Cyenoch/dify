@@ -285,6 +285,7 @@ services:
     networks:
       - ssrf_proxy_network
       - default
+      - dokploy-network
 
   # worker service
   # The Celery worker for processing the queue.

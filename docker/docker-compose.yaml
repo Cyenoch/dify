@@ -818,8 +818,6 @@ networks:
   opensearch-net:
     # driver: bridge
     # internal: true
-  default:
-    external: false
 
 volumes:
   oradata:
